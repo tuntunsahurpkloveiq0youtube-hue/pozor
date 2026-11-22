@@ -1,0 +1,13 @@
+{
+  "name": "pozor-squad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Чат и голосовые звонки для Позор Squad",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

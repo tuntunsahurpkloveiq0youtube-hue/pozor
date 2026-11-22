@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: pozor-squad
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: ACCESS_CODE
+        sync: false
